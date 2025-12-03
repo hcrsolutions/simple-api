@@ -7,6 +7,10 @@ app.get("/", (req, res) => {
 app.get("/new", (req, res) => {
   res.send("This is a new feature route!");
 });
+
+app.get("/demo", (req, res) => {
+  res.send("This is a demo feature route!");
+});
 app.listen(3000, () => {
   console.log("Server running on port 3000");
 });
